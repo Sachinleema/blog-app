@@ -1,3 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  background-color: #ffffff;
+  width: 100vw;
+  overflow-x: hidden;
+  font-family: "Outfit", serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+.animateButton {
+  animation-duration: 10000ms;
+}
+
+.ql-container {
+  border: none !important;
+}
+.ql-toolbar {
+  border: none !important;
+}
+.ql-editor {
+  border: none !important;
+}
