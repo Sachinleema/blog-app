@@ -10,7 +10,7 @@ const Navbar = () => {
   const [Open, setOpen] = useState(false);
 
   return (
-    <div className="w-full h-16 md:h-20 flex items-center justify-between">
+    <div className="min-w-screen h-16 md:h-20 flex items-center justify-between">
       {/* Logo */}
       <Link to="/" className="flex items-center gap-4 text-2xl font-medium">
         <Image src="logo.png" alt="logo" w={32} h={32} />
